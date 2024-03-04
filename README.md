@@ -78,6 +78,6 @@ To fetch weather data for a city, navigate to [http://localhost:3000](http://loc
 ## Authors
 
 - **Moises Sanchez** - 
-## https://github.com/MoisesSanchez2020/Module-one
+## https://github.com/MoisesSanchez2020/CSE310_WeatherApp
 
 
