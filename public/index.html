@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        #weather-result {
+            margin-top: 20px;
+            display: none; /* Hide initially */
+        }
+        #weather-result.show {
+            display: block; /* Show when necessary */
+        }
+        .error {
+            color: red; /* Style error messages */
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather App</h1>
+    <form id="weather-form">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button type="submit">Get Weather</button>
+    </form>
+    
+    <div id="weather-result">
+        <p id="temperature"></p>
+        <p id="humidity"></p>
+        <!-- Add more paragraphs as needed for other weather details -->
+    </div>
+
+    <div id="error-message" class="error" style="display: none;"></div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
