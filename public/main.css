@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: "Open Sans", sans-serif;
-    background: #171616;
+    background: #323131;
     background-image: url('/assets/d.jpg');
     background-size: contain; /* Ensure the image fits within the container */
     background-repeat: no-repeat; /* Do not repeat the image */
