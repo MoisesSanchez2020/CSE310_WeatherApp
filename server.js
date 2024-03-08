@@ -66,7 +66,7 @@ app.get('/weather/:city', async (req, res) =>  {
     try {
         const cityParam = req.params.city;
         // Perform a search in the database for the city
-        const cityData = await Weather.findOne({ 'name': cityParam });
+       const cityData = await Weather.findOne({ 'name': cityParam });
 
 
         if (!cityData) {
